@@ -1,0 +1,19 @@
+<phpunit bootstrap="bootstrap.php"
+		colors="false"
+		convertErrorsToExceptions="true"
+		convertNoticesToExceptions="true"
+		convertWarningsToExceptions="true"
+		stopOnFailure="false"
+		testSuiteLoaderClass="CakeTestLoader"
+		>
+	<!--
+	<logging>		
+		<log type="coverage-clover" target="./coverage.xml" />
+	</logging>		
+	-->
+	<selenium>
+		<browser name="Internet Explorer" browser="*iexplore" />
+		<browser name="Firefox" browser="*firefox" />
+	</selenium>
+
+</phpunit>
